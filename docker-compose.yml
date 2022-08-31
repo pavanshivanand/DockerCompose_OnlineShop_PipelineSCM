@@ -4,6 +4,7 @@ services:
        build:
                context: ./php/online-shopping-system
                dockerfile: Dockerfile
+       image: pavanshivanand/dockercompose_onlineshop_pipelinescm_web:latest
        container_name: php_app
        volumes:
           - ./php/online-shopping-system:/var/www/html/
